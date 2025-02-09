@@ -20,5 +20,5 @@ jobs:
       - name: push image to docker hub
         run: |
           docker login -u zaied112454 -p ${{ secrets.DOCKER_HUB_TOKEN }}
-          docker push zaied112454/devops-qr-code-backend:latest
-          docker push zaied112454/devops-qr-code-frontend:latest
+          docker push zaied112454/qr-code-backend:latest
+          docker push zaied112454/qr-code-frontend:latest
